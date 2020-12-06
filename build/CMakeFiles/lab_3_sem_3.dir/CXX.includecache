@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/laba 3/cpp-list.h
+
+D:/laba 3/cpp-vector.h
+
+D:/laba 3/main.cpp
+iostream
+-
+cpp-vector.h
+D:/laba 3/cpp-vector.h
+cpp-list.h
+D:/laba 3/cpp-list.h
+vector
+-
+list
+-
+
