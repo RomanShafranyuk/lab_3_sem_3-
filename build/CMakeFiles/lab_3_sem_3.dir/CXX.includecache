@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-D:/laba 3/cpp-list.h
+D:/lab_3_sem_3-/cpp-list.h
 
-D:/laba 3/cpp-vector.h
+D:/lab_3_sem_3-/cpp-vector.h
 
-D:/laba 3/main.cpp
+D:/lab_3_sem_3-/main.cpp
 iostream
 -
 cpp-vector.h
-D:/laba 3/cpp-vector.h
+D:/lab_3_sem_3-/cpp-vector.h
 cpp-list.h
-D:/laba 3/cpp-list.h
+D:/lab_3_sem_3-/cpp-list.h
 vector
 -
 list

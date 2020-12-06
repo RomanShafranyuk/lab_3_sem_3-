@@ -1,7 +1,7 @@
 [
 {
-  "directory": "D:/laba 3/build",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\G__~1.EXE    -Wall -Wconversion -Wextra -Wpedantic -g -o CMakeFiles\\lab_3_sem_3.dir\\main.cpp.obj -c \"D:\\laba 3\\main.cpp\"",
-  "file": "D:/laba 3/main.cpp"
+  "directory": "D:/lab_3_sem_3-/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\G__~1.EXE    -Wall -Wconversion -Wextra -Wpedantic -g -o CMakeFiles\\lab_3_sem_3.dir\\main.cpp.obj -c D:\\lab_3_sem_3-\\main.cpp",
+  "file": "D:/lab_3_sem_3-/main.cpp"
 }
 ]

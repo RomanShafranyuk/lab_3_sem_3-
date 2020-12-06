@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Рома/Desktop/lab_3_sem_3-/build"
+			"value" : "d:/lab_3_sem_3-/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Рома/Desktop/lab_3_sem_3-"
+			"value" : "D:/lab_3_sem_3-"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1267,7 +1267,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Рома/Desktop/lab_3_sem_3-/build"
+			"value" : "D:/lab_3_sem_3-/build"
 		},
 		{
 			"name" : "lab_3_sem_3_SOURCE_DIR",
@@ -1279,7 +1279,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Рома/Desktop/lab_3_sem_3-"
+			"value" : "D:/lab_3_sem_3-"
 		}
 	],
 	"kind" : "cache",
