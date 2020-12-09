@@ -84,21 +84,17 @@ public:
     }
     void resize(size_t new_size)
     {
-        std::cout << "Resize from " << _size << " to " << new_size << std::endl;
         if (_data == nullptr)
         {
-            // std::cout << "#1" << std::endl;
             _data = new T[new_size + 100];
             _size = new_size;
             _capacity = new_size + 100;
-            // std::cout << "Done!" << std::endl;
             return;
         }
         if (new_size <= _capacity - 1)
             _size = new_size;
         else
         {
-            // std::cout << "#2" << std::endl;
             T *tmp = new T[new_size + 100];
             for (size_t i = 0; i < _size; i++)
             {
@@ -109,25 +105,21 @@ public:
             _size = new_size;
             _capacity = new_size + 100;
         }
-        // std::cout << "Done!" << std::endl;
     }
 
     iterator insert(const_iterator pos, const T &value)
     {
         if (pos < begin() || pos > end())
             throw "Iterator out of range";
-        std::cout << "Insert!" << std::endl;
         iterator ret = _data;
         if (pos == end())
         {
-            std::cout << "End!" << std::endl;
             resize(_size + 1);
             _data[_size - 1] = value;
             ret = _data + _size - 1;
         }
         else if (pos == begin())
         {
-            std::cout << "Begin!" << std::endl;
             resize(_size + 1);
             for (int i = (int)_size - 2; i >= 0; i--)
                 _data[i + 1] = std::move_if_noexcept(_data[i]);

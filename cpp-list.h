@@ -24,10 +24,10 @@ public:
     public:
         ConstIterator(Node *new_node) : node(new_node) {}
         using difference_type = ptrdiff_t;
-        using value_type = T;
-        using pointer = const T *;
-        using reference = const T &;
-        using iterator_category = std::bidirectional_iterator_tag;
+        //using value_type = T;
+        //using pointer = const T *;
+       // using reference = const T &;
+        //using iterator_category = std::bidirectional_iterator_tag;
 
         friend class List<T>;
 
@@ -252,19 +252,11 @@ public:
 
     void clear()
     {
-        std::cout << "Clear method!" << std::endl;
         if (_size==0)
         {
             std::cout <<"Object is empty\n";
             return;
         } 
-        // Node *tmp = _head;
-        // while (_head!= _dummy)
-        // {
-        //     tmp = _head;
-        //     _head = _head->next;
-        //     delete tmp;
-        // }
         while ( _size != 0 )
             erase(begin());
         delete _dummy;
@@ -274,6 +266,5 @@ public:
     {
         std::cout <<"Destructor\n";
         clear();
-        std::cout << "Done\n";
     }
 };
